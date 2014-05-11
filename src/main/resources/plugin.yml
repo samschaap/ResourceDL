@@ -1,0 +1,13 @@
+name: ResourceDL
+main: nl.sheepcraft.resourcedl.Main
+version: ${project.version}
+author: samschaap
+commands:
+  resourcedl:
+    description: Download a resource pack.
+    permission: resourcedl.resourcedl
+    usage: /<command>
+permissions:
+   resourcedl.resourcedl:
+     description: Download a resource pack.
+     default: op
